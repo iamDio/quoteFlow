@@ -1,0 +1,25 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Quote {
+  monthlyPremium: Float!
+  plan: String!
+  coverage: String!
+}
+
+type Query {
+  sampleQuote: Quote!
+}
+
+type Mutation {
+  createQuote(input: CreateQuoteInput!): Quote!
+}
+
+input CreateQuoteInput {
+  name: String!
+  age: Int!
+  gender: String!
+  zip: String!
+  smoker: Boolean!
+}
