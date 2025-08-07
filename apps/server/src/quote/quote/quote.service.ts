@@ -9,6 +9,8 @@ export class QuoteService {
 
   async getQuote(id: string) {
     const cacheKey = `quote:${id}`;
+    const cacheKey = `quote:${id}`;
+
     const cached = await this.cacheManager.get(cacheKey);
     if (cached) {
       return cached;
