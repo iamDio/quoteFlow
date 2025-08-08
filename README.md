@@ -1,4 +1,4 @@
-# PolicyBuilder - Sample insurance quote app
+# Quoteflow - Sample insurance quote app
 
 Professional life insurance quote calculation platform built with NestJS, GraphQL, and Redis caching.
 
