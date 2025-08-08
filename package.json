@@ -1,0 +1,24 @@
+{
+  "name": "quoteflow",
+  "version": "1.0.0",
+  "description": "Professional life insurance quote calculation platform built with NestJS, GraphQL, and Redis caching.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamDio/quoteFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamDio/quoteFlow/issues"
+  },
+  "homepage": "https://github.com/iamDio/quoteFlow#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
