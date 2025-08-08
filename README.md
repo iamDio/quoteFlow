@@ -52,7 +52,7 @@ mutation {
 
 ## 🔜 Coming Soon
 
-React/Next.js frontend
-GraphQL integration with Apollo client
-User authentication
-CI/CD pipeline and deployment instructions
+- React/Next.js frontend
+- GraphQL integration with Apollo client
+- User authentication
+- CI/CD pipeline and deployment instructions
