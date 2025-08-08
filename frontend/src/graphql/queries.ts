@@ -14,7 +14,6 @@ export const GET_QUOTE = gql`
   }
 `;
 
-// Test query for connection
 export const TEST_CONNECTION = gql`
   query TestConnection {
     __schema {
